@@ -105,3 +105,35 @@ footer{background:#ebeee7}
 .hero.hero-photo{background-image:linear-gradient(90deg,rgba(250,248,241,.95) 0%,rgba(250,248,241,.78) 39%,rgba(250,248,241,.12) 100%),url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=85")!important;background-color:#e8e4db!important;background-size:cover!important;background-position:center center!important}
 .hero.hero-photo .hero-photo-image,.hero.hero-photo .hero-photo-shade{display:none!important}
 @media(max-width:570px){.hero.hero-photo{background-image:linear-gradient(90deg,rgba(250,248,241,.95) 0%,rgba(250,248,241,.78) 58%,rgba(250,248,241,.24) 100%),url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1100&q=85")!important;background-position:62% center!important}}
+
+
+/* Readability pass: prioritize legible Japanese text on phones */
+body{font-size:16px;line-height:1.8}
+.site-header nav{font-size:14px}
+.section-top p,.comparison-lead,.about p,.steps p,.article-tile p,.product p{font-size:15px;line-height:1.8}
+.product h3{font-size:19px;line-height:1.55}
+.micro,.photo>a,.disclaimer{font-size:13px}
+.photo-tag{font-size:13px;max-width:calc(100% - 24px);white-space:normal;line-height:1.4}
+.filters button{font-size:15px;padding:11px 17px;min-height:44px;font-weight:600}
+.path-grid strong{font-size:17px}.path-grid small{font-size:13px}
+.actions a{font-size:14px;min-height:44px}
+.article-tile h3,.steps h3{font-size:20px}
+.read-more{font-size:14px}
+@media(max-width:570px){
+body{font-size:16px}
+.site-header nav{font-size:13px;max-width:64vw}
+.hero-photo p{font-size:15px}
+.hero-photo .hero-cta{font-size:15px}
+.hero-photo .hero-bottom span{font-size:12px}
+.shop-paths h2,.section h2{font-size:27px}
+.path-grid strong{font-size:15px;line-height:1.5}
+.path-grid small{font-size:12px}
+.path-grid a{min-height:172px}
+.filters button{font-size:14px;padding:10px 15px}
+.product h3{font-size:19px}
+.product p,.article-tile p,.steps p,.about p,.section-top p{font-size:15px}
+.photo-tag{font-size:13px}
+.micro,.photo>a{font-size:13px}
+.actions a{font-size:14px}
+.disclaimer{font-size:12px}
+}
