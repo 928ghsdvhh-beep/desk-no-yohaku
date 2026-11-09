@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===button));document.querySelectorAll('[data-category]').forEach(card=>card.hidden=button.dataset.filter!=='すべて'&&card.dataset.category!==button.dataset.filter)}));
