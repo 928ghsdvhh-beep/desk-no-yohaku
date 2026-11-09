@@ -11,3 +11,41 @@
 .article-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.article-tile{display:flex;flex-direction:column;min-height:230px;padding:24px;border-radius:22px;background:white;border:1px solid var(--line)}.article-tile:nth-child(2){background:#f1f7f1}.article-tile:nth-child(3){background:#f3eff9}.article-number{font-size:10px;color:#b1859c;letter-spacing:.13em}.article-tile h3{font-size:18px;margin:12px 0}.article-tile p{font-size:12px;color:var(--muted);margin:0;flex:1}.read-more{font-size:12px;font-weight:700;color:var(--rose);margin-top:18px}.about{max-width:900px}.about p{font-size:13px;color:var(--muted)}footer{display:flex;justify-content:center;align-items:center;gap:12px 20px;flex-wrap:wrap;background:#f7eaf0;padding:34px 22px;text-align:center;font-size:12px}footer strong{font-size:17px}footer small{flex-basis:100%;font-size:11px;color:#76636d}
 @media(max-width:880px){.site-header{align-items:flex-start;flex-direction:column;gap:8px}.products{grid-template-columns:repeat(2,minmax(0,1fr))}.article-grid,.steps{grid-template-columns:repeat(2,minmax(0,1fr))}.section-top{display:block}.hero-stickers{right:-20px;opacity:.3}}
 @media(max-width:570px){body{font-size:14px}.site-header{padding:14px 18px}.brand{font-size:21px}.site-header nav{gap:8px 13px;font-size:11px}.announcement{font-size:10px}.hero{padding:52px 21px 30px;min-height:auto;border-radius:0 0 28px 28px}.hero h1{font-size:42px;margin:18px 0}.hero p{font-size:13px;line-height:1.9}.hero p br{display:none}.hero-bottom{margin-top:28px}.section{padding:48px 18px}.products,.article-grid,.steps{grid-template-columns:1fr;gap:16px}.product-illustration{height:175px}.photo{min-height:220px}.product h3{font-size:17px}.product-body{padding:20px}.filters{gap:7px}.filters button{font-size:11px;padding:8px 13px}.compare-table{font-size:12px}.guide{padding:48px 18px}.article-tile{min-height:195px}.actions a{font-size:12px}}
+
+
+/* Editorial storefront redesign: clear purpose, neutral palette, intentional typography */
+:root{--ink:#242622;--muted:#686b65;--rose:#344a40;--rose-dark:#25392f;--cream:#fcfbf7;--line:#e9e8e1;--mint:#f2f3ee;--lav:#f5f4f0}
+body{background:var(--cream);color:var(--ink)}
+.site-header{box-shadow:0 1px 0 #e8e8e2}
+.brand{font-weight:700;letter-spacing:-.08em}
+.brand span{color:#9c9d91}
+.announcement{background:#292e29;color:#f9f8f3;letter-spacing:.07em;padding:9px 15px}
+.hero{background:#f2f0e9;border-radius:0;min-height:450px;padding-top:74px;padding-bottom:48px}
+.hero:before{content:"";position:absolute;right:8%;top:16%;width:25%;height:65%;border:1px solid #c9cbc0;border-radius:150px 150px 20px 20px;transform:rotate(12deg);opacity:.65}
+.hero .eyebrow{color:#59685b}
+.hero h1{max-width:740px;font-size:clamp(38px,5.7vw,66px);line-height:1.38;letter-spacing:-.075em}
+.hero h1 em{color:#354c40}
+.hero p{color:#50574f}
+.hero-cta,.primary,.check-cta{background:#344a40}
+.hero-cta:hover,.primary:hover,.check-cta:hover{background:#24382e}
+.hero-stickers{right:10%;top:36%;transform:rotate(-10deg);font-size:12px;display:flex;flex-direction:column;gap:2px;color:#4f6253;opacity:.65;letter-spacing:.18em;font-weight:700}
+.hero-bottom span{background:#fff;border:1px solid #e0e0d7;color:#505a50}
+.eyebrow,.micro{color:#70776c}
+.filters button{border-color:#d9ded4;color:#485148}
+.filters button.active{background:#344a40;border-color:#344a40}
+.product{border-color:#e7e8e1;box-shadow:0 5px 24px #262c2310;border-radius:18px}
+.photo,.product:nth-child(3n+2) .photo,.product:nth-child(3n+3) .photo{background:#f2f2ec}
+.product:nth-child(3n+2) .photo{background:#ecefe9}
+.product:nth-child(3n+3) .photo{background:#f0eee8}
+.photo-tag{color:#4b514a;border:1px solid #e2e5dd}
+.photo>a{color:#3d5647}
+.product-body h3{font-size:17px;letter-spacing:-.035em}
+.actions a{border-radius:9px}
+.guide{background:#f0f1eb}
+.steps article,.article-tile{border:1px solid #e4e6de;border-radius:15px}
+.article-tile:nth-child(2),.article-tile:nth-child(3){background:white}
+.article-number,.read-more{color:#4d6253}
+.comparison{background:#fff}
+.compare-table thead{background:#eef0e9}
+footer{background:#ebeee7}
+@media(max-width:570px){.hero{padding-top:46px;padding-bottom:32px}.hero:before{right:-35%;top:5%;width:62%;height:80%;opacity:.2}.hero h1{font-size:36px;line-height:1.4}.hero-stickers{display:none}.product-illustration{height:175px}.photo{min-height:210px}.announcement{font-size:10px;line-height:1.6}}
