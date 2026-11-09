@@ -98,3 +98,10 @@ footer{background:#ebeee7}
 .shop-paths{padding-top:30px}
 .shop-paths h2{margin:8px 0 17px}
 }
+
+
+/* Definitive hero fix: paint the photograph directly on the hero element.
+   This avoids negative stacking contexts and pseudo-element overlays. */
+.hero.hero-photo{background-image:linear-gradient(90deg,rgba(250,248,241,.95) 0%,rgba(250,248,241,.78) 39%,rgba(250,248,241,.12) 100%),url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=85")!important;background-color:#e8e4db!important;background-size:cover!important;background-position:center center!important}
+.hero.hero-photo .hero-photo-image,.hero.hero-photo .hero-photo-shade{display:none!important}
+@media(max-width:570px){.hero.hero-photo{background-image:linear-gradient(90deg,rgba(250,248,241,.95) 0%,rgba(250,248,241,.78) 58%,rgba(250,248,241,.24) 100%),url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1100&q=85")!important;background-position:62% center!important}}
