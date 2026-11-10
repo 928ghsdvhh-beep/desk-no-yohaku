@@ -175,3 +175,6 @@ body{font-size:16px}
 .actions{margin-top:9px;gap:5px}
 .actions a{font-size:12px;padding:8px 9px;min-height:38px}
 }
+
+/* Article entry thumbnails: each drawing matches its article, not unrelated stock photos */
+.article-topic-art{display:block;width:100%;aspect-ratio:320/190;margin-bottom:15px;overflow:hidden;border-radius:12px;background:#eef2ed}.article-topic-art svg{display:block;width:100%;height:100%}.article-tile{overflow:hidden}.article-tile .article-number{font-size:12px;line-height:1.5}
