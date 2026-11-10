@@ -196,3 +196,8 @@ body{font-size:16px}
 #products .product h3{font-size:19px;line-height:1.5}
 #products .product p{font-size:14px;line-height:1.7}
 @media(max-width:570px){#products .product{display:flex;grid-template-columns:none}#products .product .product-body{padding:17px}#products .product .photo>a{padding:11px 17px}}
+
+/* Editorial photos: modest, consistent horizontal thumbnails, never oversized illustrations. */
+.article-tile .article-thumb-photo{display:block;width:100%;height:132px;max-height:132px;object-fit:cover;object-position:center;border-radius:8px;margin:0 0 13px;background:#edf0eb}
+.article-tile{min-height:0!important}
+@media(max-width:570px){.article-tile .article-thumb-photo{height:104px;max-height:104px}.article-tile{padding:16px!important}.article-tile h3{margin:7px 0}}
