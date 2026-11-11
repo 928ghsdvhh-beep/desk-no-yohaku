@@ -20,3 +20,7 @@
 ## 根拠
 - https://developers.google.com/search/docs/appearance/ai-features
 - https://developers.cloudflare.com/pages/configuration/serving-pages/
+
+## 2026年11月12日：購入前記事の内容改善
+
+代表的な購入前チェック記事1本に、対象別の確認表（何を調べ、どの点に注意して判断するか）と関連記事を追加。編集更新日を本文に明示。価格・商品仕様・レビュー・制度の再確認日とは区別する。広告アンカーと画像・計測要素の不変、関連記事の存在、主見出し、JSON-LD構文を検査。坂道は更新用ソースに組み込み、再ビルドで保持。
