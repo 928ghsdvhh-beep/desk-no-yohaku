@@ -1,0 +1,152 @@
+[
+  {
+    "width": 320,
+    "name": "cable-goods-7",
+    "pageOverflow": false,
+    "scrollableTable": true,
+    "buttons": true,
+    "picks": 7,
+    "heroLabel": "配線整理：電源タップ・ケーブルを机の下へ",
+    "anchor": true
+  },
+  {
+    "width": 320,
+    "name": "drawer-goods-6",
+    "pageOverflow": false,
+    "scrollableTable": true,
+    "buttons": true,
+    "picks": 6,
+    "heroLabel": "引き出し収納：文具を仕切って取り出しやすく",
+    "anchor": true
+  },
+  {
+    "width": 320,
+    "name": "small-desk-goods-8",
+    "pageOverflow": false,
+    "scrollableTable": true,
+    "buttons": true,
+    "picks": 8,
+    "heroLabel": "省スペース収納：机の下・横・上を活用する",
+    "anchor": true
+  },
+  {
+    "width": 375,
+    "name": "cable-goods-7",
+    "pageOverflow": false,
+    "scrollableTable": true,
+    "buttons": true,
+    "picks": 7,
+    "heroLabel": "配線整理：電源タップ・ケーブルを机の下へ",
+    "anchor": true
+  },
+  {
+    "width": 375,
+    "name": "drawer-goods-6",
+    "pageOverflow": false,
+    "scrollableTable": true,
+    "buttons": true,
+    "picks": 6,
+    "heroLabel": "引き出し収納：文具を仕切って取り出しやすく",
+    "anchor": true
+  },
+  {
+    "width": 375,
+    "name": "small-desk-goods-8",
+    "pageOverflow": false,
+    "scrollableTable": true,
+    "buttons": true,
+    "picks": 8,
+    "heroLabel": "省スペース収納：机の下・横・上を活用する",
+    "anchor": true
+  },
+  {
+    "width": 390,
+    "name": "cable-goods-7",
+    "pageOverflow": false,
+    "scrollableTable": true,
+    "buttons": true,
+    "picks": 7,
+    "heroLabel": "配線整理：電源タップ・ケーブルを机の下へ",
+    "anchor": true
+  },
+  {
+    "width": 390,
+    "name": "drawer-goods-6",
+    "pageOverflow": false,
+    "scrollableTable": true,
+    "buttons": true,
+    "picks": 6,
+    "heroLabel": "引き出し収納：文具を仕切って取り出しやすく",
+    "anchor": true
+  },
+  {
+    "width": 390,
+    "name": "small-desk-goods-8",
+    "pageOverflow": false,
+    "scrollableTable": true,
+    "buttons": true,
+    "picks": 8,
+    "heroLabel": "省スペース収納：机の下・横・上を活用する",
+    "anchor": true
+  },
+  {
+    "width": 768,
+    "name": "cable-goods-7",
+    "pageOverflow": false,
+    "scrollableTable": false,
+    "buttons": true,
+    "picks": 7,
+    "heroLabel": "配線整理：電源タップ・ケーブルを机の下へ",
+    "anchor": true
+  },
+  {
+    "width": 768,
+    "name": "drawer-goods-6",
+    "pageOverflow": false,
+    "scrollableTable": false,
+    "buttons": true,
+    "picks": 6,
+    "heroLabel": "引き出し収納：文具を仕切って取り出しやすく",
+    "anchor": true
+  },
+  {
+    "width": 768,
+    "name": "small-desk-goods-8",
+    "pageOverflow": false,
+    "scrollableTable": false,
+    "buttons": true,
+    "picks": 8,
+    "heroLabel": "省スペース収納：机の下・横・上を活用する",
+    "anchor": true
+  },
+  {
+    "width": 1280,
+    "name": "cable-goods-7",
+    "pageOverflow": false,
+    "scrollableTable": false,
+    "buttons": true,
+    "picks": 7,
+    "heroLabel": "配線整理：電源タップ・ケーブルを机の下へ",
+    "anchor": true
+  },
+  {
+    "width": 1280,
+    "name": "drawer-goods-6",
+    "pageOverflow": false,
+    "scrollableTable": false,
+    "buttons": true,
+    "picks": 6,
+    "heroLabel": "引き出し収納：文具を仕切って取り出しやすく",
+    "anchor": true
+  },
+  {
+    "width": 1280,
+    "name": "small-desk-goods-8",
+    "pageOverflow": false,
+    "scrollableTable": false,
+    "buttons": true,
+    "picks": 8,
+    "heroLabel": "省スペース収納：机の下・横・上を活用する",
+    "anchor": true
+  }
+]

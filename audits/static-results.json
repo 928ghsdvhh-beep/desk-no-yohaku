@@ -1,0 +1,26 @@
+{
+  "base_commit": "13d62cd904c922c526c2bbe3231b06504b64c224",
+  "html_files": 13,
+  "amazon_occurrences": 53,
+  "classification": {
+    "ASIN直リンク": 13,
+    "検索結果": 40
+  },
+  "unique_asins": [
+    "B0CBLVSC3Q",
+    "B0DPWTZ936",
+    "B0DPWW49HK",
+    "B0GH6SS6FP"
+  ],
+  "tracking_ids": [
+    "moon12-22"
+  ],
+  "sitemap_urls": 11,
+  "warnings": [
+    "notes/retractable-usbc-charging.html: existing affiliate rel incomplete: https://www.amazon.co.jp/dp/B0DPWTZ936?tag=moon12-22",
+    "notes/retractable-usbc-charging.html: existing affiliate rel incomplete: https://www.amazon.co.jp/dp/B0DPWTZ936?tag=moon12-22&th=1#customerReviews",
+    "notes/retractable-usbc-charging.html: existing affiliate rel incomplete: https://www.amazon.co.jp/dp/B0DPWTZ936",
+    "notes/retractable-usbc-charging.html: existing affiliate rel incomplete: https://www.amazon.co.jp/dp/B0DPWW49HK"
+  ],
+  "errors": []
+}

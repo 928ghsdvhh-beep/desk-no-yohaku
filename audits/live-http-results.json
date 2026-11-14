@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://desk-no-yohaku.pages.dev/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/robots.txt",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/sitemap.xml",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/cable-goods-7",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/drawer-goods-6",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/small-desk-goods-8",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/cable-goods-7.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/audit-missing-20261114",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
