@@ -220,3 +220,6 @@ body{font-size:16px}
 #products .amazon-actions a.secondary{background:#fff!important;color:#3d4541!important;border:1px solid #aeb5af!important}
 
 #products .rating-evidence{font-size:13px;font-weight:700;color:#3e5747;margin:7px 0}#products .rating-evidence small{font-size:10px;color:#737b75;font-weight:400}
+
+/* Product comparison and measurement links: preserve the existing article layout. */
+.product-comparison{margin:28px 0}.product-comparison table{border-collapse:collapse;width:100%;min-width:640px;font-size:14px}.product-comparison th,.product-comparison td{padding:12px;text-align:left;vertical-align:top;border-bottom:1px solid #d9ddd7}.product-comparison thead{background:#f2f4f1}.product-comparison caption{text-align:left;padding:8px 0}.product-comparison a,.measurement-link,.verified-spec a{text-decoration:underline;text-underline-offset:3px}.product-status,.scroll-hint{font-size:14px!important;color:#555}.pick{scroll-margin-top:20px}.reading .compare-scroll{max-width:100%}.compare-scroll:focus-visible{outline:2px solid #42665c;outline-offset:3px}
