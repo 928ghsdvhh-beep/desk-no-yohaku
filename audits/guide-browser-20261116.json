@@ -1,0 +1,167 @@
+[
+  {
+    "width": 320,
+    "name": "drawer-organization",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 320,
+    "name": "small-desk",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 320,
+    "name": "cable-management",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article",
+      "BreadcrumbList"
+    ],
+    "tableScrollable": true
+  },
+  {
+    "width": 375,
+    "name": "drawer-organization",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 375,
+    "name": "small-desk",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 375,
+    "name": "cable-management",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article",
+      "BreadcrumbList"
+    ],
+    "tableScrollable": true
+  },
+  {
+    "width": 390,
+    "name": "drawer-organization",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 390,
+    "name": "small-desk",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 390,
+    "name": "cable-management",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article",
+      "BreadcrumbList"
+    ],
+    "tableScrollable": true
+  },
+  {
+    "width": 768,
+    "name": "drawer-organization",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 768,
+    "name": "small-desk",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 768,
+    "name": "cable-management",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article",
+      "BreadcrumbList"
+    ],
+    "tableScrollable": true
+  },
+  {
+    "width": 1280,
+    "name": "drawer-organization",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 1280,
+    "name": "small-desk",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article"
+    ],
+    "tableScrollable": true,
+    "destination": true
+  },
+  {
+    "width": 1280,
+    "name": "cable-management",
+    "overflow": false,
+    "h1": 1,
+    "jsonld": [
+      "Article",
+      "BreadcrumbList"
+    ],
+    "tableScrollable": true
+  }
+]

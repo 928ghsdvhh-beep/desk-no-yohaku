@@ -1,0 +1,99 @@
+[
+  {
+    "url": "https://desk-no-yohaku.pages.dev/about",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/about"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/check",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/check"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/",
+    "canonical": [
+      "https://desk-no-yohaku.pages.dev/"
+    ]
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/cable-goods-7",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/notes/cable-goods-7",
+    "canonical": [
+      "https://desk-no-yohaku.pages.dev/notes/cable-goods-7"
+    ]
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/cable-management",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/notes/cable-management",
+    "canonical": [
+      "https://desk-no-yohaku.pages.dev/notes/cable-management"
+    ]
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/drawer-goods-6",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/notes/drawer-goods-6",
+    "canonical": [
+      "https://desk-no-yohaku.pages.dev/notes/drawer-goods-6"
+    ]
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/drawer-organization",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/notes/drawer-organization",
+    "canonical": [
+      "https://desk-no-yohaku.pages.dev/notes/drawer-organization"
+    ],
+    "new_content": false
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/retractable-usbc-charging",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/notes/retractable-usbc-charging",
+    "canonical": [
+      "https://desk-no-yohaku.pages.dev/notes/retractable-usbc-charging"
+    ]
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/small-desk-goods-8",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/notes/small-desk-goods-8",
+    "canonical": [
+      "https://desk-no-yohaku.pages.dev/notes/small-desk-goods-8"
+    ]
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/notes/small-desk",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/notes/small-desk",
+    "canonical": [
+      "https://desk-no-yohaku.pages.dev/notes/small-desk"
+    ],
+    "new_content": false
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/privacy",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/privacy"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/robots.txt",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/robots.txt"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/sitemap.xml",
+    "status": 200,
+    "final_url": "https://desk-no-yohaku.pages.dev/sitemap.xml"
+  },
+  {
+    "url": "https://desk-no-yohaku.pages.dev/missing-guide-check-20261116",
+    "status": 404,
+    "final_url": "https://desk-no-yohaku.pages.dev/missing-guide-check-20261116",
+    "noindex": true
+  }
+]
