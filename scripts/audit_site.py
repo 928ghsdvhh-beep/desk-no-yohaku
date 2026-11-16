@@ -35,7 +35,13 @@ for p in sorted(root.rglob('*.html')):
             asin=re.search(r'/(?:dp|gp/product)/([A-Z0-9]{10})(?:[/?#]|$)',s.path)
             kind='ASIN直リンク' if asin else '検索結果' if s.path=='/s' else 'その他'
             rows.append([str(p),tag,kind,asin[1] if asin else '',parse_qs(s.query).get('tag',[''])[0],u,'未確認（検索リンクは特定商品を保証しない）' if not asin else '未確認（Amazon本文取得不能）',a.get('_heading','')])
-            if tag=='a' and not {'sponsored','noopener','noreferrer'} <= set(a.get('rel','').split()): warnings.append(f'{p}: existing affiliate rel incomplete: {u}')
+            if tag=='a':
+                rels=set(a.get('rel','').split())
+                affiliate=bool(parse_qs(s.query).get('tag')) or host.endswith('amzn.to')
+                if affiliate and not {'sponsored','noopener'} <= rels:
+                    warnings.append(f'{p}: affiliate rel incomplete: {u}')
+                elif not affiliate and a.get('target')=='_blank' and not {'noopener','noreferrer'} & rels:
+                    warnings.append(f'{p}: source link missing opener protection: {u}')
         if u and not s.scheme and not s.netloc:
             target=(p.parent/unquote(s.path)) if s.path else p
             if s.path.startswith('/'): target=root/s.path.lstrip('/')
