@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-16",
+  "preview_commit": "8db89b64fc78088d14742fd69dba92f0be2b3f69",
+  "preview_url": "https://9791c5b6.desk-no-yohaku.pages.dev/notes/cable-management",
+  "method": "Live Chromium UI; browser zoom 100%, 300%, 400%; read-only DOM measurement",
+  "real_device": false,
+  "results": [
+    {
+      "width": 1363,
+      "documentWidth": 1348,
+      "overflow": false,
+      "diagram_visually_checked": true
+    },
+    {
+      "width": 454,
+      "documentWidth": 449,
+      "overflow": false,
+      "table_region_width": 411,
+      "table_content_width": 610,
+      "table_scrollable": true
+    },
+    {
+      "width": 340,
+      "documentWidth": 337,
+      "overflow": false,
+      "table_region_width": 299,
+      "table_content_width": 610,
+      "table_scrollable": true
+    }
+  ],
+  "product_navigation": {
+    "target_url": "https://9791c5b6.desk-no-yohaku.pages.dev/notes/cable-goods-7#pick-3",
+    "product": "サンワサプライ CB-CT4BK ケーブル配線トレー（ブラック・Sサイズ）",
+    "affiliate_url": "https://www.amazon.co.jp/dp/B09DC8V3XS?tag=moon12-22",
+    "external_amazon_navigation_tested": false
+  },
+  "visual_followup": "After the initial inspection, moved diagram label below apron shape; viewBox and layout dimensions unchanged. Verify production rendering after merge."
+}

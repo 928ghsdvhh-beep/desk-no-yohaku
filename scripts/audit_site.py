@@ -33,6 +33,12 @@ for p in sorted(root.rglob('*.html')):
         if old.count(change['old']) != 1:
             errors.append(f'{p}: approved replacement source missing or ambiguous')
         old=old.replace(change['old'],change['new'])
+    # Only explicitly reviewed editorial JSON-LD changes are allowed.
+    for change in manifest.get('metadata_replacements',[]):
+        if change['path'] != p.as_posix(): continue
+        if old.count(change['old']) != 1:
+            errors.append(f'{p}: approved metadata source missing or ambiguous')
+        old=old.replace(change['old'],change['new'])
     # Preserve every other ad anchor, tracking script and pixel.
     protected=lambda x: re.findall(r'<a\b[^>]*href=["\'][^"\']*(?:amazon\.|amzn\.)[^"\']*["\'][^>]*>.*?</a>|<script\b[^>]*>.*?</script>|<img\b[^>]*>',x,re.S)
     if protected(t)!=protected(old): errors.append(f'{p}: protected markup changed')
