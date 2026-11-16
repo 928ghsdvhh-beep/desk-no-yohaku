@@ -44,6 +44,84 @@
         "https://jp.mercari.com/item/m81167989165"
       ],
       "identity_status": "manufacturer specifications + external Amazon-linked listing matched; live Amazon offer unverified"
+    },
+    {
+      "asin": "B0GHM1L8DJ",
+      "title": "山崎実業 伸縮デスク下ケーブルトレー スマート｜10416・ホワイト",
+      "pages": [
+        "notes/cable-goods-7.html"
+      ],
+      "variant": "10416・ホワイト",
+      "sources": [
+        "https://www.yamajitsu.co.jp/products/240238",
+        "https://getnavi.jp/variety/1116942/"
+      ],
+      "identity_status": "manufacturer specifications + external Amazon-linked listing matched; live Amazon offer unverified"
+    },
+    {
+      "asin": "B01N6B5ST9",
+      "title": "サンワサプライ CB-CT5 メッシュケーブルトレー",
+      "pages": [
+        "notes/cable-goods-7.html"
+      ],
+      "variant": "CB-CT5・メッシュタイプ",
+      "sources": [
+        "https://www.sanwa.co.jp/product/syohin?code=CB-CT5",
+        "https://note.com/muramitsu/n/nece86d210ff7"
+      ],
+      "identity_status": "manufacturer specifications + external Amazon-linked listing matched; live Amazon offer unverified"
+    },
+    {
+      "asin": "B09K3FGHS4",
+      "title": "エレコム スタンド付きケーブルボックス 小｜EKC-BOX003BK・ブラック",
+      "pages": [
+        "notes/cable-goods-7.html"
+      ],
+      "variant": "EKC-BOX003BK・ブラック・小",
+      "sources": [
+        "https://www.elecom.co.jp/products/EKC-BOX003BK.html",
+        "https://note.com/light_fox3746/n/n13b9f3ea8020"
+      ],
+      "identity_status": "manufacturer specifications + external Amazon-linked listing matched; live Amazon offer unverified"
+    },
+    {
+      "asin": "B014BMMLYA",
+      "title": "山崎実業 ケーブルボックス ウェブ L｜2707・ホワイト",
+      "pages": [
+        "notes/cable-goods-7.html"
+      ],
+      "variant": "2707・ホワイト・ウェブ L",
+      "sources": [
+        "https://www.yamajitsu.co.jp/products/241010",
+        "https://roomclip.jp/shopping/products/123260"
+      ],
+      "identity_status": "manufacturer specifications + external Amazon-linked listing matched; live Amazon offer unverified"
+    },
+    {
+      "asin": "B015403WYQ",
+      "title": "サンワサプライ 面ファスナー ケーブルタイ｜CA-MF1KN・ブラック4本入り",
+      "pages": [
+        "notes/cable-goods-7.html"
+      ],
+      "variant": "CA-MF1KN・ブラック・4本入り",
+      "sources": [
+        "https://www.sanwa.co.jp/product/syohin?code=CA-MF1KN",
+        "https://note.com/mdsmys/n/nf998553846ef"
+      ],
+      "identity_status": "manufacturer specifications + external Amazon-linked listing matched; live Amazon offer unverified"
+    },
+    {
+      "asin": "B0BKKZQ3XT",
+      "title": "山崎実業 スリムデスクオーガナイザー タワー｜5986・ブラック",
+      "pages": [
+        "notes/small-desk-goods-8.html"
+      ],
+      "variant": "5986・ブラック",
+      "sources": [
+        "https://www.yamajitsu.co.jp/products/242213",
+        "https://note.com/tmg500/n/n2b047c071ba5"
+      ],
+      "identity_status": "manufacturer specifications + external Amazon-linked listing matched; live Amazon offer unverified"
     }
   ],
   "replacements": [
@@ -94,6 +172,79 @@
       "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E4%B8%8B%E5%8F%8E%E7%B4%8D%E3%83%A9%E3%83%83%E3%82%AF%20%E3%82%BF%E3%83%AF%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
       "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B099ZFMP8J/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
       "asin": "B099ZFMP8J"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20%E4%BC%B8%E7%B8%AE%E3%83%87%E3%82%B9%E3%82%AF%E4%B8%8B%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%20%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B0GHM1L8DJ?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B0GHM1L8DJ"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20%E4%BC%B8%E7%B8%AE%E3%83%87%E3%82%B9%E3%82%AF%E4%B8%8B%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%20%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B0GHM1L8DJ/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B0GHM1L8DJ"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%AF%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%20CB-CT5%20%E3%83%A1%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B01N6B5ST9?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B01N6B5ST9"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%AF%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%20CB-CT5%20%E3%83%A1%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B01N6B5ST9/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B01N6B5ST9"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E3%82%A8%E3%83%AC%E3%82%B3%E3%83%A0%20%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E5%8F%8E%E7%B4%8D%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B09K3FGHS4?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B09K3FGHS4"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E3%82%A8%E3%83%AC%E3%82%B3%E3%83%A0%20%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E5%8F%8E%E7%B4%8D%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B09K3FGHS4/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B09K3FGHS4"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20tower%20%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B014BMMLYA?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B014BMMLYA"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20tower%20%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B014BMMLYA/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B014BMMLYA"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%AF%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%20%E9%9D%A2%E3%83%95%E3%82%A1%E3%82%B9%E3%83%8A%E3%83%BC%20%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%82%BF%E3%82%A4&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B015403WYQ?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B015403WYQ"
+    },
+    {
+      "path": "notes/cable-goods-7.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%AF%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%20%E9%9D%A2%E3%83%95%E3%82%A1%E3%82%B9%E3%83%8A%E3%83%BC%20%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%82%BF%E3%82%A4&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B015403WYQ/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B015403WYQ"
+    },
+    {
+      "path": "notes/small-desk-goods-8.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20%E3%82%B9%E3%83%AA%E3%83%A0%E3%83%87%E3%82%B9%E3%82%AF%E3%82%AA%E3%83%BC%E3%82%AC%E3%83%8A%E3%82%A4%E3%82%B6%E3%83%BC%20%E3%82%BF%E3%83%AF%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B0BKKZQ3XT?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B0BKKZQ3XT"
+    },
+    {
+      "path": "notes/small-desk-goods-8.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20%E3%82%B9%E3%83%AA%E3%83%A0%E3%83%87%E3%82%B9%E3%82%AF%E3%82%AA%E3%83%BC%E3%82%AC%E3%83%8A%E3%82%A4%E3%82%B6%E3%83%BC%20%E3%82%BF%E3%83%AF%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B0BKKZQ3XT/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B0BKKZQ3XT"
     }
-  ]
+  ],
+  "followup_base_commit": "168421b4f3657db248d734b37b70fb3942927ce7"
 }

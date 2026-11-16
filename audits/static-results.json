@@ -3,17 +3,23 @@
   "html_files": 13,
   "amazon_occurrences": 53,
   "classification": {
-    "ASIN直リンク": 21,
-    "検索結果": 32
+    "ASIN直リンク": 33,
+    "検索結果": 20
   },
   "unique_asins": [
+    "B014BMMLYA",
+    "B015403WYQ",
+    "B01N6B5ST9",
     "B06XCRGD3L",
     "B099ZFMP8J",
     "B09DC8V3XS",
+    "B09K3FGHS4",
+    "B0BKKZQ3XT",
     "B0CBLVSC3Q",
     "B0DPWTZ936",
     "B0DPWW49HK",
-    "B0GH6SS6FP"
+    "B0GH6SS6FP",
+    "B0GHM1L8DJ"
   ],
   "tracking_ids": [
     "moon12-22"
