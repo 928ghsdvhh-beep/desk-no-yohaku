@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-11-16",
+  "content_commit": "13259089e6ad261e748e78e6cb2ecd51c890e912",
+  "method": "Live Chromium UI, browser zoom 300% and 400%; CSS viewport widths measured from DOM",
+  "real_device": false,
+  "touch_emulation": false,
+  "results": [
+    {
+      "url": "https://sleep-guide.pages.dev/hugravi-weight-wash",
+      "width": 454,
+      "documentWidth": 449,
+      "overflow": false,
+      "clippedAdLinks": 0
+    },
+    {
+      "url": "https://sleep-guide.pages.dev/hugravi-weight-wash",
+      "width": 340,
+      "documentWidth": 337,
+      "overflow": false,
+      "clippedAdLinks": 0
+    },
+    {
+      "url": "https://food-waste-guide.pages.dev/model-comparison",
+      "width": 454,
+      "documentWidth": 449,
+      "overflow": false,
+      "clippedAdLinks": 0
+    },
+    {
+      "url": "https://food-waste-guide.pages.dev/model-comparison",
+      "width": 340,
+      "documentWidth": 337,
+      "overflow": false,
+      "clippedAdLinks": 0
+    },
+    {
+      "url": "https://desk-no-yohaku.pages.dev/notes/cable-goods-7?verify=1325908",
+      "width": 454,
+      "documentWidth": 449,
+      "overflow": false,
+      "clippedAdLinks": 0,
+      "searchButtons": 0
+    },
+    {
+      "url": "https://desk-no-yohaku.pages.dev/notes/cable-goods-7?verify=1325908",
+      "width": 340,
+      "documentWidth": 337,
+      "overflow": false,
+      "clippedAdLinks": 0,
+      "searchButtons": 0
+    },
+    {
+      "url": "https://desk-no-yohaku.pages.dev/notes/drawer-goods-6?verify=1325908",
+      "width": 454,
+      "documentWidth": 449,
+      "overflow": false,
+      "clippedAdLinks": 0,
+      "searchButtons": 10
+    },
+    {
+      "url": "https://desk-no-yohaku.pages.dev/notes/drawer-goods-6?verify=1325908",
+      "width": 340,
+      "documentWidth": 337,
+      "overflow": false,
+      "clippedAdLinks": 0,
+      "searchButtons": 10
+    },
+    {
+      "url": "https://desk-no-yohaku.pages.dev/notes/small-desk-goods-8?verify=1325908",
+      "width": 454,
+      "documentWidth": 449,
+      "overflow": false,
+      "clippedAdLinks": 0,
+      "searchButtons": 10
+    },
+    {
+      "url": "https://desk-no-yohaku.pages.dev/notes/small-desk-goods-8?verify=1325908",
+      "width": 340,
+      "documentWidth": 337,
+      "overflow": false,
+      "clippedAdLinks": 0,
+      "searchButtons": 10
+    }
+  ]
+}
