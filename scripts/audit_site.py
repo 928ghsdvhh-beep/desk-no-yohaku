@@ -69,7 +69,7 @@ if set(urls)!=expected or len(urls)!=len(set(urls)): errors.append('sitemap mism
 if 'Sitemap: https://desk-no-yohaku.pages.dev/sitemap.xml' not in Path('robots.txt').read_text(): errors.append('robots sitemap missing')
 Path('audits').mkdir(exist_ok=True)
 with open('audits/amazon-links.csv','w') as f:
-    w=csv.writer(f);w.writerow(['file','element','classification','asin','tracking_id','url','verification','heading_context']);w.writerows(rows)
+    w=csv.writer(f,lineterminator="\n");w.writerow(['file','element','classification','asin','tracking_id','url','verification','heading_context']);w.writerows(rows)
 result={'base_commit':base,'html_files':len(pages),'amazon_occurrences':len(rows),'classification':dict(Counter(r[2] for r in rows)),'unique_asins':sorted({r[3] for r in rows if r[3]}),'tracking_ids':sorted({r[4] for r in rows if r[4]}),'sitemap_urls':len(urls),'warnings':warnings,'errors':errors}
 Path('audits/static-results.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(result,ensure_ascii=False,indent=2))
