@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-16",
+  "page": "https://desk-no-yohaku.pages.dev/notes/cable-management",
+  "base_main": "b43342f68246a49a419956f740d4e64350956677",
+  "primary_query": "ケーブルトレー 幕板",
+  "supporting_queries": [
+    "ケーブルトレー 幕板 付かない",
+    "ケーブルトレー 取り付けられない",
+    "ケーブルトレー 天板厚"
+  ],
+  "search_intent": "購入前・購入後の取り付け不適合を、測定して切り分ける",
+  "previous_title": "デスクの配線整理は何から始める？穴を開けずに整える手順",
+  "new_title": "ケーブルトレーが幕板で付かない？金具と天板の確認手順",
+  "changes": [
+    "title・h1・description・Articleの検索意図を統一",
+    "4か所の採寸表と側面模式図",
+    "CB-CT4BK/CB-CT5/smart10416の一次資料比較",
+    "仮定の寸法を使った不適合例",
+    "適合確認から既存商品詳細への内部リンク",
+    "ホーム・比較記事からのアンカーテキスト更新"
+  ],
+  "search_volume": null,
+  "difficulty_score": null,
+  "rank_baseline": null,
+  "search_console_baseline": {
+    "retrieved": false,
+    "impressions": null,
+    "clicks": null,
+    "ctr": null,
+    "average_position": null
+  },
+  "measurement_plan": {
+    "page_filter": "https://desk-no-yohaku.pages.dev/notes/cable-management",
+    "query_terms": [
+      "ケーブルトレー",
+      "幕板",
+      "付かない",
+      "取り付けられない"
+    ],
+    "compare": "公開前後の同じ長さの期間を、ページと検索語の両方で比較。再クロール・デバイス・表示母数も確認。",
+    "interpretation": "順位・検索需要・流入・成果の改善は未測定。複数変更を含むため単一要因の因果効果とは断定しない。"
+  },
+  "boundaries": [
+    "URL・canonical・サイトマップ掲載範囲を維持",
+    "既存広告HTML・Tracking ID・解析コードを維持",
+    "実機適合・現在の在庫・価格・レビュー傾向を主張しない"
+  ],
+  "sources": [
+    "https://www.sanwa.co.jp/product/syohin?code=CB-CT4BK",
+    "https://www.sanwa.co.jp/product/syohin?code=CB-CT5",
+    "https://www.yamajitsu.co.jp/products/240238",
+    "https://developers.google.com/search/docs/appearance/title-link?hl=ja"
+  ],
+  "competition_note": "検索取得結果に幕板・取り付け条件の専門記事が複数ある。Googleの特定地域の順位・検索数を測った結果ではなく、低競合と確定していない。"
+}

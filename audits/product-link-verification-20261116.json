@@ -246,5 +246,13 @@
       "asin": "B0BKKZQ3XT"
     }
   ],
-  "followup_base_commit": "168421b4f3657db248d734b37b70fb3942927ce7"
+  "followup_base_commit": "168421b4f3657db248d734b37b70fb3942927ce7",
+  "metadata_replacements": [
+    {
+      "path": "notes/cable-management.html",
+      "old": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"デスクの配線整理は何から始める？穴を開けずに整える手順\", \"description\": \"デスクの配線を穴あけなしで整理する手順。幕板でケーブルトレーが付かない場合の確認箇所、天板厚・金具・収納寸法の測り方、固定方法の選び直しを解説します。\", \"inLanguage\": \"ja\", \"mainEntityOfPage\": \"https://desk-no-yohaku.pages.dev/notes/cable-management\", \"url\": \"https://desk-no-yohaku.pages.dev/notes/cable-management\"}</script>",
+      "new": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"ケーブルトレーが幕板で付かない？金具と天板の確認手順\", \"description\": \"幕板のある机でケーブルトレーが取り付けられないときに測る4か所を図解。CB-CT4BK・CB-CT5・smart 10416の天板厚と設置条件、金具が干渉する場合の選び直しをメーカー資料で比較します。\", \"inLanguage\": \"ja\", \"mainEntityOfPage\": \"https://desk-no-yohaku.pages.dev/notes/cable-management\", \"url\": \"https://desk-no-yohaku.pages.dev/notes/cable-management\", \"dateModified\": \"2026-11-16\"}</script><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"デスクの余白。\", \"item\": \"https://desk-no-yohaku.pages.dev/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"幕板とケーブルトレーの確認\", \"item\": \"https://desk-no-yohaku.pages.dev/notes/cable-management\"}]}</script>",
+      "reason": "User-approved keyword focus; synchronize Article and visible breadcrumbs without changing advertising or analytics."
+    }
+  ]
 }
