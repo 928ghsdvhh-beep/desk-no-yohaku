@@ -20,21 +20,29 @@ class Page(HTMLParser):
         if tag in ('h1','h2','h3'): self.in_heading=False
 
 root=Path('.')
-base=subprocess.check_output(['git','merge-base','HEAD','main'],text=True).strip()
+manifest_path=Path('audits/product-link-verification-20261116.json')
+manifest=json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+base=manifest.get('base_commit') or subprocess.check_output(['git','merge-base','HEAD','main'],text=True).strip()
 rows=[]; errors=[]; warnings=[]; pages={}
 for p in sorted(root.rglob('*.html')):
     t=p.read_text(); page=Page(t); pages[p]=page
     old=subprocess.check_output(['git','show',f'{base}:{p.as_posix()}'],text=True)
-    # Preserve complete ad anchor markup, tracking scripts and pixels.
+    # Permit only the exact reviewed search-to-product replacements.
+    for change in manifest.get('replacements',[]):
+        if change['path'] != p.as_posix(): continue
+        if old.count(change['old']) != 1:
+            errors.append(f'{p}: approved replacement source missing or ambiguous')
+        old=old.replace(change['old'],change['new'])
+    # Preserve every other ad anchor, tracking script and pixel.
     protected=lambda x: re.findall(r'<a\b[^>]*href=["\'][^"\']*(?:amazon\.|amzn\.)[^"\']*["\'][^>]*>.*?</a>|<script\b[^>]*>.*?</script>|<img\b[^>]*>',x,re.S)
     if protected(t)!=protected(old): errors.append(f'{p}: protected markup changed')
     for tag,a in page.tags:
         u=a.get('href','') if tag=='a' else a.get('src','')
         s=urlsplit(u); host=s.hostname or ''
         if host.endswith('amazon.co.jp') or host.endswith('amzn.to') or 'amazon-adsystem' in host:
-            asin=re.search(r'/(?:dp|gp/product)/([A-Z0-9]{10})(?:[/?#]|$)',s.path)
+            asin=re.search(r'/(?:dp|gp/product|product-reviews)/([A-Z0-9]{10})(?:[/?#]|$)',s.path)
             kind='ASIN直リンク' if asin else '検索結果' if s.path=='/s' else 'その他'
-            rows.append([str(p),tag,kind,asin[1] if asin else '',parse_qs(s.query).get('tag',[''])[0],u,'未確認（検索リンクは特定商品を保証しない）' if not asin else '未確認（Amazon本文取得不能）',a.get('_heading','')])
+            rows.append([str(p),tag,kind,asin[1] if asin else '',parse_qs(s.query).get('tag',[''])[0],u,'未確認（検索リンクは特定商品を保証しない）' if not asin else ('型番と外部掲載URLを照合済み・Amazon現在条件未確認' if asin and asin[1] in {p['asin'] for p in manifest.get('products',[])} else '未確認（Amazon本文取得不能）'),a.get('_heading','')])
             if tag=='a':
                 rels=set(a.get('rel','').split())
                 affiliate=bool(parse_qs(s.query).get('tag')) or host.endswith('amzn.to')
