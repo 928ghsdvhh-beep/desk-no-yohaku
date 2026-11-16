@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://desk-no-yohaku.pages.dev/sitemap.xml
+Sitemap: https://desk-no-yohaku.pages.dev/sitemap.txt
