@@ -3,8 +3,8 @@
   "html_files": 13,
   "amazon_occurrences": 53,
   "classification": {
-    "ASIN直リンク": 33,
-    "検索結果": 20
+    "ASIN直リンク": 37,
+    "検索結果": 16
   },
   "unique_asins": [
     "B014BMMLYA",
@@ -18,6 +18,8 @@
     "B0CBLVSC3Q",
     "B0DPWTZ936",
     "B0DPWW49HK",
+    "B0FR9D4NSD",
+    "B0GBTXKQYD",
     "B0GH6SS6FP",
     "B0GHM1L8DJ"
   ],
