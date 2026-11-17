@@ -3,17 +3,19 @@
   "html_files": 13,
   "amazon_occurrences": 53,
   "classification": {
-    "ASIN直リンク": 37,
-    "検索結果": 16
+    "ASIN直リンク": 41,
+    "検索結果": 12
   },
   "unique_asins": [
     "B014BMMLYA",
     "B015403WYQ",
     "B01N6B5ST9",
     "B06XCRGD3L",
+    "B07DP94B25",
     "B099ZFMP8J",
     "B09DC8V3XS",
     "B09K3FGHS4",
+    "B0BF93R7WR",
     "B0BKKZQ3XT",
     "B0CBLVSC3Q",
     "B0DPWTZ936",
