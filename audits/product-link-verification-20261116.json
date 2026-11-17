@@ -122,6 +122,32 @@
         "https://note.com/tmg500/n/n2b047c071ba5"
       ],
       "identity_status": "manufacturer specifications + external Amazon-linked listing matched; live Amazon offer unverified"
+    },
+    {
+      "asin": "B0GBTXKQYD",
+      "title": "山崎実業 テーブル横マルチラック タワー｜10367・ホワイト",
+      "pages": [
+        "notes/small-desk-goods-8.html"
+      ],
+      "variant": "10367・ホワイト",
+      "sources": [
+        "https://www.yamajitsu.co.jp/products/240209",
+        "https://ure.pia.co.jp/articles/-/3404014"
+      ],
+      "identity_status": "manufacturer indexed specifications + exact product-number external Amazon-linked listing matched; live Amazon offer unverified"
+    },
+    {
+      "asin": "B0FR9D4NSD",
+      "title": "無印良品 ポリプロピレンデスク内整理トレー2｜76403210",
+      "pages": [
+        "notes/drawer-goods-6.html"
+      ],
+      "variant": "76403210",
+      "sources": [
+        "https://www.muji.com/jp/ja/store/cmdty/detail/4548076403210",
+        "https://michill.jp/lifestyle/249794"
+      ],
+      "identity_status": "manufacturer indexed specifications + exact product-number external Amazon-linked listing matched; live Amazon offer unverified"
     }
   ],
   "replacements": [
@@ -244,6 +270,30 @@
       "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20%E3%82%B9%E3%83%AA%E3%83%A0%E3%83%87%E3%82%B9%E3%82%AF%E3%82%AA%E3%83%BC%E3%82%AC%E3%83%8A%E3%82%A4%E3%82%B6%E3%83%BC%20%E3%82%BF%E3%83%AF%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
       "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B0BKKZQ3XT/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
       "asin": "B0BKKZQ3XT"
+    },
+    {
+      "path": "notes/small-desk-goods-8.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%A8%AA%E3%83%9E%E3%83%AB%E3%83%81%E3%83%A9%E3%83%83%E3%82%AF%20%E3%82%BF%E3%83%AF%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B0GBTXKQYD?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B0GBTXKQYD"
+    },
+    {
+      "path": "notes/small-desk-goods-8.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E6%A8%AA%E3%83%9E%E3%83%AB%E3%83%81%E3%83%A9%E3%83%83%E3%82%AF%20%E3%82%BF%E3%83%AF%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B0GBTXKQYD/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B0GBTXKQYD"
+    },
+    {
+      "path": "notes/drawer-goods-6.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E7%84%A1%E5%8D%B0%E8%89%AF%E5%93%81%20%E3%83%9D%E3%83%AA%E3%83%97%E3%83%AD%E3%83%94%E3%83%AC%E3%83%B3%E3%83%87%E3%82%B9%E3%82%AF%E5%86%85%E6%95%B4%E7%90%86%E3%83%88%E3%83%AC%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B0FR9D4NSD?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B0FR9D4NSD"
+    },
+    {
+      "path": "notes/drawer-goods-6.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E7%84%A1%E5%8D%B0%E8%89%AF%E5%93%81%20%E3%83%9D%E3%83%AA%E3%83%97%E3%83%AD%E3%83%94%E3%83%AC%E3%83%B3%E3%83%87%E3%82%B9%E3%82%AF%E5%86%85%E6%95%B4%E7%90%86%E3%83%88%E3%83%AC%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B0FR9D4NSD/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B0FR9D4NSD"
     }
   ],
   "followup_base_commit": "168421b4f3657db248d734b37b70fb3942927ce7",
@@ -254,5 +304,43 @@
       "new": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"ケーブルトレーが幕板で付かない？金具と天板の確認手順\", \"description\": \"幕板のある机でケーブルトレーが取り付けられないときに測る4か所を図解。CB-CT4BK・CB-CT5・smart 10416の天板厚と設置条件、金具が干渉する場合の選び直しをメーカー資料で比較します。\", \"inLanguage\": \"ja\", \"mainEntityOfPage\": \"https://desk-no-yohaku.pages.dev/notes/cable-management\", \"url\": \"https://desk-no-yohaku.pages.dev/notes/cable-management\", \"dateModified\": \"2026-11-16\"}</script><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"デスクの余白。\", \"item\": \"https://desk-no-yohaku.pages.dev/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"幕板とケーブルトレーの確認\", \"item\": \"https://desk-no-yohaku.pages.dev/notes/cable-management\"}]}</script>",
       "reason": "User-approved keyword focus; synchronize Article and visible breadcrumbs without changing advertising or analytics."
     }
-  ]
+  ],
+  "followup_20261118": {
+    "base_commit": "6f91b99d4e794fe2ab0d9c876e46e6c75e31c307",
+    "checked_date": "2026-11-18",
+    "evidence": [
+      {
+        "path": "notes/small-desk-goods-8.html",
+        "id": "pick-2",
+        "asin": "B0GBTXKQYD",
+        "title": "山崎実業 テーブル横マルチラック タワー｜10367・ホワイト",
+        "spec": "10367・ホワイト。外寸18×13.5×14cm。天板厚1.2〜5.5cm（幕板やパイプ等を含む）、幅3cm以上・奥行4.5cm以上の平らな取付面が必要です。構造・材質・形状によっては取り付けできません。",
+        "summary": "10367・ホワイト。外寸18×13.5×14cm。",
+        "check": "天板厚1.2〜5.5cm、取付面の幅3cm以上・奥行4.5cm以上を確認。",
+        "source": "https://www.yamajitsu.co.jp/products/240209",
+        "identity_source": "https://ure.pia.co.jp/articles/-/3404014",
+        "identity_excerpt": "ホワイト W18×D13.5×H14cm / 10367",
+        "source_excerpt": "ホワイト 10367 / W18×D13.5×H14cm",
+        "identity_target": "https://www.amazon.co.jp/dp/B0GBTXKQYD?linkCode=ogi&ots=1&psc=1&ref=mgac2017&tag=outside-urepia-rm-22&th=1"
+      },
+      {
+        "path": "notes/drawer-goods-6.html",
+        "id": "pick-2",
+        "asin": "B0FR9D4NSD",
+        "title": "無印良品 ポリプロピレンデスク内整理トレー2｜76403210",
+        "spec": "掲載候補はトレー2、商品番号76403210、外寸約100×200×40mmです。トレー1・3・4は別サイズです。並べる個数分の外寸と引き出しの有効高さを測ってください。メーカーの商品ページは現在メンテナンス案内に転送されるため、寸法は公式の検索掲載情報と外部の商品掲載情報を照合した値です。",
+        "summary": "トレー2・76403210。外寸約100×200×40mm。",
+        "check": "並べる個数分の外寸と引き出しの有効高さを確認。",
+        "source": "https://www.muji.com/jp/ja/store/cmdty/detail/4548076403210",
+        "identity_source": "https://michill.jp/lifestyle/249794",
+        "identity_excerpt": "デスク内整理トレー２ 約100x200x40mm 76403210",
+        "source_excerpt": "商品番号76403210 / 約１００ｘ２００ｘ４０ｍｍ",
+        "identity_target": "https://www.amazon.co.jp/dp/B0FR9D4NSD?linkCode=osi&psc=1&tag=michill-tool-22&th=1"
+      }
+    ],
+    "amazon_current": "Both product pages returned 503; price/stock/seller/current selected variant unverified",
+    "muji_current": "Manufacturer direct product URL redirects to maintenance; official indexed product-number/dimensions used, not a current availability claim",
+    "reviews_read": 0,
+    "remaining_search_links": 16
+  }
 }
