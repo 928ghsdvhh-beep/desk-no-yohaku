@@ -148,6 +148,32 @@
         "https://michill.jp/lifestyle/249794"
       ],
       "identity_status": "manufacturer indexed specifications + exact product-number external Amazon-linked listing matched; live Amazon offer unverified"
+    },
+    {
+      "asin": "B0BF93R7WR",
+      "title": "サンワダイレクト デスクサイドホルダー｜200-STN068BK・ブラック",
+      "pages": [
+        "notes/small-desk-goods-8.html"
+      ],
+      "variant": "200-STN068BK・ブラック",
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000003748.000011495.html",
+        "https://www.hidetoshitwitt.com/sanwa-deskside-review/"
+      ],
+      "identity_status": "specific replacement candidate selected; manufacturer specifications and exact model/colour Amazon-linked listing matched; live Amazon current offer unverified"
+    },
+    {
+      "asin": "B07DP94B25",
+      "title": "山崎実業 メタルトレー タワー L｜4222・ブラック",
+      "pages": [
+        "notes/drawer-goods-6.html"
+      ],
+      "variant": "4222・ブラック",
+      "sources": [
+        "https://www.yamajitsu.co.jp/products/241402",
+        "https://note.com/daily_gadget/n/n89aa72e8c1a9"
+      ],
+      "identity_status": "specific replacement candidate selected; manufacturer specifications and exact model/colour Amazon-linked listing matched; live Amazon current offer unverified"
     }
   ],
   "replacements": [
@@ -294,6 +320,30 @@
       "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E7%84%A1%E5%8D%B0%E8%89%AF%E5%93%81%20%E3%83%9D%E3%83%AA%E3%83%97%E3%83%AD%E3%83%94%E3%83%AC%E3%83%B3%E3%83%87%E3%82%B9%E3%82%AF%E5%86%85%E6%95%B4%E7%90%86%E3%83%88%E3%83%AC%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
       "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B0FR9D4NSD/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
       "asin": "B0FR9D4NSD"
+    },
+    {
+      "path": "notes/small-desk-goods-8.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%AF%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%20%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%97%E5%BC%8F%E3%83%87%E3%82%B9%E3%82%AF%E3%82%B5%E3%82%A4%E3%83%89%E3%83%A9%E3%83%83%E3%82%AF&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B0BF93R7WR?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B0BF93R7WR"
+    },
+    {
+      "path": "notes/small-desk-goods-8.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%B3%E3%83%AF%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%20%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%97%E5%BC%8F%E3%83%87%E3%82%B9%E3%82%AF%E3%82%B5%E3%82%A4%E3%83%89%E3%83%A9%E3%83%83%E3%82%AF&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B0BF93R7WR/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B0BF93R7WR"
+    },
+    {
+      "path": "notes/drawer-goods-6.html",
+      "old": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20tower%20%E5%B0%8F%E7%89%A9%E5%8F%8E%E7%B4%8D%E3%83%88%E3%83%AC%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonで該当商品を探す ↗</a>",
+      "new": "<a class=\"affiliate-main\" href=\"https://www.amazon.co.jp/dp/B07DP94B25?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">Amazonの商品ページを見る</a>",
+      "asin": "B07DP94B25"
+    },
+    {
+      "path": "notes/drawer-goods-6.html",
+      "old": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%B4%8E%E5%AE%9F%E6%A5%AD%20tower%20%E5%B0%8F%E7%89%A9%E5%8F%8E%E7%B4%8D%E3%83%88%E3%83%AC%E3%83%BC&amp;tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐ 商品を選んで星評価・レビューを見る ↗</a>",
+      "new": "<a class=\"affiliate-review\" href=\"https://www.amazon.co.jp/product-reviews/B07DP94B25/?tag=moon12-22\" target=\"_blank\" rel=\"sponsored noopener noreferrer\">⭐️Amazonのレビューを見る</a>",
+      "asin": "B07DP94B25"
     }
   ],
   "followup_base_commit": "168421b4f3657db248d734b37b70fb3942927ce7",
@@ -342,5 +392,39 @@
     "muji_current": "Manufacturer direct product URL redirects to maintenance; official indexed product-number/dimensions used, not a current availability claim",
     "reviews_read": 0,
     "remaining_search_links": 16
+  },
+  "followup_20261118_round2": {
+    "base_commit": "c784b10a21969432b7a804af2962294bccea8d10",
+    "checked_date": "2026-11-18",
+    "evidence": [
+      {
+        "path": "notes/small-desk-goods-8.html",
+        "id": "pick-6",
+        "asin": "B0BF93R7WR",
+        "title": "サンワダイレクト デスクサイドホルダー｜200-STN068BK・ブラック",
+        "spec": "机の横へノートPCや書類を移す候補として、クランプ式の200-STN068BK・ブラックを選び直しました。旧候補は一般名だけで型番未特定だったため、同一商品と断定した置換ではありません。メーカー発表の本体外寸は約28×8.8×20cm、対応する天板の厚さ上限は3.5cmです。書類や端末が入る形状か、机の下の金具・脚や通路と干渉しないか、販売ページの最新の対応厚・耐荷重も確認してください。",
+        "summary": "200-STN068BK・ブラック。メーカー発表外寸約28×8.8×20cm。",
+        "check": "天板厚上限3.5cmを含む取付条件、脚・通路との干渉を確認。",
+        "source": "https://prtimes.jp/main/html/rd/p/000003748.000011495.html",
+        "identity_source": "https://www.hidetoshitwitt.com/sanwa-deskside-review/",
+        "evidence": "メーカー発表本文の200-STN068とAmazon店B0BF93R7WR、外部記事のブラック200-STN068BK付きAmazonリンクが同ASIN。",
+        "variant": "200-STN068BK・ブラック"
+      },
+      {
+        "path": "notes/drawer-goods-6.html",
+        "id": "pick-6",
+        "asin": "B07DP94B25",
+        "title": "山崎実業 メタルトレー タワー L｜4222・ブラック",
+        "spec": "机上と引き出しで使える平たいトレーの候補として、メタルトレー タワーLの4222・ブラックを選び直しました。旧候補の「tower 小物収納トレー」は型番未特定であり、同じ商品だったと確認したものではありません。メーカー仕様の外寸は22×10×1.5cm、底面内寸は20.5×8.5cmです。収納したい文具の長さと、トレーに入れた状態で引き出しを閉められる高さを確認してください。",
+        "summary": "4222・ブラック。外寸22×10×1.5cm、底面内寸20.5×8.5cm。",
+        "check": "文具の長さと、物を入れた状態で引き出しが閉まる高さを確認。",
+        "source": "https://www.yamajitsu.co.jp/products/241402",
+        "identity_source": "https://note.com/daily_gadget/n/n89aa72e8c1a9",
+        "evidence": "メーカー公式品番4221/4222と外寸、外部記事のブラック4222付きAmazonリンクがB07DP94B25へ転送。",
+        "variant": "4222・ブラック"
+      }
+    ],
+    "remaining_search_links": 12,
+    "note": "Amazon current conditions and reviews unverified. Incorrect manufacturer-maintenance label removed from tower10367, MUJI-only maintenance label preserved."
   }
 }
