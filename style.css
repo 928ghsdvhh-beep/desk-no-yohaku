@@ -57,12 +57,12 @@ footer{background:#ebeee7}
 
 /* Photo-led editorial redesign. Photographs illustrate desk styles, not the listed SKUs. */
 .hero-photo{min-height:560px;background:#e8e4db;display:flex;flex-direction:column;justify-content:center;color:#242821}
-.hero-photo-image{position:absolute;inset:0;z-index:-2;background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1800&q=85');background-size:cover;background-position:center 52%}
+.hero-photo-image{position:absolute;inset:0;z-index:-2;background-image:url('assets/small-desk-generated.webp');background-size:cover;background-position:center 52%}
 .hero-photo-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(250,248,241,.97) 0%,rgba(250,248,241,.91) 35%,rgba(250,248,241,.36) 63%,rgba(250,248,241,.02) 100%)}
 .hero-photo:before{display:none}.hero-photo h1{font-size:clamp(42px,6vw,70px);max-width:720px}.hero-photo p{max-width:500px}.hero-photo .eyebrow{font-size:11px}.hero-photo .hero-bottom span{background:#fffffff0}
 .product-photo-scene{width:100%;height:225px;background-size:cover;background-position:center;filter:saturate(.75)}.product-photo-scene .scene-object{display:none}
 .scene-1{background-image:url('https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=800&q=80')}
-.scene-2{background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80')}
+.scene-2{background-image:url('assets/small-desk-generated.webp')}
 .scene-3{background-image:url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80')}
 .scene-4{background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80')}
 .scene-5{background-image:url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80')}
@@ -74,7 +74,7 @@ footer{background:#ebeee7}
 
 /* Mobile hero visibility hotfix 2026-11-09 */
 .hero-photo{isolation:isolate;display:block;min-height:480px;padding-top:72px;padding-bottom:34px;background-color:#d8d1c4}
-.hero-photo-image{z-index:0!important;background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=85')!important;background-position:center center}
+.hero-photo-image{z-index:0!important;background-image:url('assets/small-desk-generated.webp')!important;background-position:center center}
 .hero-photo-shade{z-index:1!important;background:linear-gradient(90deg,rgba(249,247,241,.94) 0%,rgba(249,247,241,.80) 43%,rgba(249,247,241,.18) 100%)}
 .hero-photo>*:not(.hero-photo-image):not(.hero-photo-shade){position:relative;z-index:2}
 .hero-photo h1{max-width:670px;font-size:clamp(34px,5vw,64px);line-height:1.36;margin:14px 0 14px}
@@ -102,9 +102,9 @@ footer{background:#ebeee7}
 
 /* Definitive hero fix: paint the photograph directly on the hero element.
    This avoids negative stacking contexts and pseudo-element overlays. */
-.hero.hero-photo{background-image:linear-gradient(90deg,rgba(250,248,241,.95) 0%,rgba(250,248,241,.78) 39%,rgba(250,248,241,.12) 100%),url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=85")!important;background-color:#e8e4db!important;background-size:cover!important;background-position:center center!important}
+.hero.hero-photo{background-image:linear-gradient(90deg,rgba(250,248,241,.95) 0%,rgba(250,248,241,.78) 39%,rgba(250,248,241,.12) 100%),url("assets/small-desk-generated.webp")!important;background-color:#e8e4db!important;background-size:cover!important;background-position:center center!important}
 .hero.hero-photo .hero-photo-image,.hero.hero-photo .hero-photo-shade{display:none!important}
-@media(max-width:570px){.hero.hero-photo{background-image:linear-gradient(90deg,rgba(250,248,241,.95) 0%,rgba(250,248,241,.78) 58%,rgba(250,248,241,.24) 100%),url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1100&q=85")!important;background-position:62% center!important}}
+@media(max-width:570px){.hero.hero-photo{background-image:linear-gradient(90deg,rgba(250,248,241,.95) 0%,rgba(250,248,241,.78) 58%,rgba(250,248,241,.24) 100%),url("assets/small-desk-generated.webp")!important;background-position:62% center!important}}
 
 
 /* Readability pass: prioritize legible Japanese text on phones */
