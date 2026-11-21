@@ -229,3 +229,33 @@ body{font-size:16px}
 
 /* Measurement guides: keep wide comparisons inside their own scroll region. */
 .fit-guide{margin:2rem 0}.fit-guide .compare-scroll{max-width:100%;overflow-x:auto}.fit-guide table{width:100%;min-width:560px;border-collapse:collapse;font-size:15px;line-height:1.7}.fit-guide th,.fit-guide td{padding:12px;text-align:left;vertical-align:top;border-bottom:1px solid #d9ddd7}.fit-guide th{background:#f2f4f1}.fit-guide caption{text-align:left;padding:10px 0;font-weight:700}.fit-guide a{text-decoration:underline;text-underline-offset:3px}.fit-guide .compare-scroll:focus-visible{outline:2px solid #42665c;outline-offset:3px}
+
+
+.setup-map {
+  margin: 1.5rem 0;
+  padding: clamp(12px, 3vw, 24px);
+  border: 1px solid #d9ddd7;
+  border-radius: 12px;
+  background: #f5f7f4;
+  color: #263d35;
+}
+.setup-map figcaption { margin: 0 0 .8rem; font-weight: 700; }
+.setup-map ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+  gap: .7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.setup-map ol li {
+  min-width: 0;
+  margin: 0;
+  padding: .8rem;
+  border: 1px solid #d9ddd7;
+  border-radius: 8px;
+  background: #fff;
+}
+.setup-map li strong, .setup-map li span, .setup-map li a { display: block; }
+.setup-map li span { margin-top: .3rem; }
+.setup-map li a { margin-top: .5rem; font-weight: 700; text-decoration: underline; }
